@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+  background-color: #191B27;
+}
+
+main{
+    background-color: #d2d2d2;
+}
+
+header{
+  background-color: #676769;
+}
+
+header > h1{
+    margin: 
+}
+
+.p {
+    background-color: #676769;
+}
+
+main {
+    background-color: #848484;
+}
