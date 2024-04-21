@@ -2,17 +2,21 @@
 
 body{
   background-color: #191B27;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 main{
-    background-color: #d2d2d2;
+    background-color: #4f4f4f00;
+    min-width: 400px;
+    color: #848484;
 }
 
-header{
-   min-height: 500px;
-   background-color: #676769;
-  
 
+header{
+   display:block;
+   min-height: 500px;
+   min-width: 600px;
+   
 }
 
 header > h1{  
@@ -20,7 +24,8 @@ header > h1{
     color: aliceblue;
     position: absolute;
     top: 29%;
-    right: 50%;
+    right: 45%;
+    left: 20%;
     transform: translate(-50%, -50%);
     font-size: 45px;
 }
@@ -36,6 +41,100 @@ header > h1{
     font-size: 20px;
 }
 
-main {
+article {
     background-color: #848484;
+    color: aliceblue;
+    min-height: 550px;
+    display: block;
+}
+
+article > h2 {
+    background-color: #ffffff00;
+    position: absolute;
+    top: 85%;
+    left: 9%;
+    font-size: 50px;
+}
+
+article > p {
+    background-color: #ffffff00;
+    position: absolute;
+    top: 100%;
+    right: 55%;
+    left: 5%;
+    font-size: 20px;
+}
+
+aside {
+    display: block;
+    background-color: #535457;
+    min-height: 550px
+}
+aside > h3 {
+    color: aliceblue;
+    font-size: 25px;
+}
+
+aside > p {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.pcm {
+    font-size: 20px;
+    position: absolute;
+    top: 140%;
+    right: auto;
+    left: 2%;
+    bottom: auto;
+}
+
+.pcmp {
+    font-size: 17px;
+    position: absolute;
+    top: 145%;
+    right: 75%;
+    left: 3%;
+    bottom: auto;
+}
+
+.mm {
+    position: absolute;
+    top: 140%;
+    right: ;
+    left: 30%;
+}
+
+.mmp {
+    position: absolute;
+    top: 145%;
+    right: 5%;
+    left: 35%;
+}
+
+.at {
+    position: absolute;
+    top: 180%;
+
+}
+
+.atp {
+    position: absolute;
+    top: 185%;
+    right: 65%;
+    left: 2%;
+}
+
+.dt {
+    position: absolute;
+    top: 180%;
+    right: ;
+    left: 30%;
+}
+
+.dtp {
+    position: absolute;
+    top: 185%;
+    right: 35%;
+    left: 32%;
 }
