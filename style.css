@@ -80,7 +80,7 @@ aside > p {
     font-size: 20px;
 }
 
-.pcm {
+.pcm > h3{
     font-size: 20px;
     position: absolute;
     top: 140%;
@@ -89,7 +89,7 @@ aside > p {
     bottom: auto;
 }
 
-.pcmp {
+.pcm > p{
     font-size: 17px;
     position: absolute;
     top: 145%;
@@ -98,41 +98,41 @@ aside > p {
     bottom: auto;
 }
 
-.mm {
+.mm > h3{
     position: absolute;
     top: 140%;
     right: ;
     left: 30%;
 }
 
-.mmp {
+.mm > p{
     position: absolute;
     top: 145%;
     right: 5%;
     left: 35%;
 }
 
-.at {
+.at > h3{
     position: absolute;
     top: 180%;
 
 }
 
-.atp {
+.at > p{
     position: absolute;
     top: 185%;
     right: 65%;
     left: 2%;
 }
 
-.dt {
+.dt > h3{
     position: absolute;
     top: 180%;
     right: ;
     left: 30%;
 }
 
-.dtp {
+.dtp > p{
     position: absolute;
     top: 185%;
     right: 35%;
