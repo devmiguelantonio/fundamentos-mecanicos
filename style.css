@@ -7,6 +7,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -46,22 +47,60 @@ main > p {
 }
 
 article {
-    
+    background-color: rgb(26, 20, 28);
+    min-width: 300px;
+    max-width: 600px;
+    min-height: 1080px;
 }
 
 aside {
     background-color: rgb(36, 36, 36);
     padding: 10px;
     min-width: 150px;
-    max-width: 350px;
-    border-radius: 15px;
-    box-shadow: ;
+    max-width: 550px;
+    font-size: 18px;
 }
+
+/* Primeira divisão do aside parte de cima */
 
 .pm {
     display: flex;
 }
 
+.pcm {
+    padding: 10px;
+}
+
+.pcm > h3 {
+    padding: 15px;
+}
+
+.mm{
+    padding: 10px;
+}
+
+.mm > h3 {
+    padding: 10px;
+}
+
+/* Segunda divisão do aside, parte de baixo */
+
 .ad {
     display: flex;
+}
+
+.at {
+    padding: 10px;
+}
+
+.at > h3 {
+    padding: 10px;
+}
+
+.dt {
+    padding: 10px;
+}
+
+.dt > h3 {
+    padding: 10px;
 }
