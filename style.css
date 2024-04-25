@@ -11,8 +11,9 @@
 }
 
 header {
-    background-color: dimgray;
-    min-height: 400px;
+    background-image: url(imagens/fundo1-g.jpg);
+    min-height: 750px;
+    max-height: 1080px;
     padding-top: 40px;
     display: block;
 }
