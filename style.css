@@ -50,7 +50,7 @@ article {
     background-color: rgb(26, 20, 28);
     min-width: 300px;
     max-width: 600px;
-    min-height: 1080px;
+    padding: 190px;
 }
 
 aside {
