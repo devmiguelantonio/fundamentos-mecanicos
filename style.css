@@ -12,10 +12,23 @@
 
 header {
     background-image: url(imagens/fundo1-g.jpg);
-    min-height: 750px;
+    min-height: 500px;
     max-height: 1080px;
     padding-top: 40px;
     display: block;
+    color: aliceblue;
+}
+
+.fm {
+    text-align: left;
+    padding:50px 0px 0px 0px;
+    display: flex;
+}
+
+.intro {
+    text-align:left;
+    padding:40px 10px 0px 500px;
+    display: flex;
 }
 
 main {
@@ -49,9 +62,14 @@ main > p {
 
 article {
     background-color: rgb(26, 20, 28);
-    min-width: 300px;
-    max-width: 600px;
-    padding: 190px;
+    min-width: 150px;
+    max-width: 550px;
+    max-height: 980px;
+    padding: 90px 210px 0px 10px;
+}
+
+.desenhotecnico{
+    
 }
 
 aside {
